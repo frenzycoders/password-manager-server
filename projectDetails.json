@@ -1,0 +1,13 @@
+{
+    "name": "password-manager",
+    "path": "",
+    "description": "",
+    "isDb": true,
+    "isLocalDB": true,
+    "dbUrl": "mongodb://localhost/",
+    "dbName": "pwdMgr",
+    "isAuth": false,
+    "routes": [
+        "/"
+    ]
+}
