@@ -30,6 +30,6 @@ app.use((req, res, next) => {
 
 require('./Config')(app);
 
-server.listen(3000, (err) => {
-  console.log('server is running on ===> http://localhost:3000');
+server.listen(4001, (err) => {
+  console.log('server is running on ===> http://localhost:4001');
 })

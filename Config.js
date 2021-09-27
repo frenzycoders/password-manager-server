@@ -8,7 +8,7 @@ const { Errors } = require('./Error');
         })
         //For Default 404 error
         app.use((req, res, next) => {
-            Errors.Error404(req, res)
+            Errors.Error404(req, res,"Welcome Password manager api")
         })
     }
     
