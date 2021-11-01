@@ -7,8 +7,8 @@ let transporter = nodemailer.createTransport({
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-        user: '', // generated ethereal user
-        pass: '', // generated ethereal password
+        user: 'managerp305@gmail.com', // generated ethereal user
+        pass: 'G@123aurav', // generated ethereal password
     },
 });
 // { subject: "appointment cancelled", text: "sorry, your appoitnment is cancelled" }

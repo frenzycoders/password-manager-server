@@ -16,6 +16,10 @@ const PasswordManagerSchema = new mongoose.Schema({
     passwords: [{
         type: mongoose.Schema.Types.ObjectId,
         ref: "PasswordModel"
+    }],
+    files:[{
+        type:mongoose.Schema.Types.ObjectId,
+        ref:"FileModel"
     }]
 })
 
